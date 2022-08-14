@@ -1,0 +1,60 @@
+/* base config */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+/* base config */
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.generator {
+  padding: 120px 0;
+}
+
+.generator__form {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px -1px 20px 0px #c7c7c7;
+  padding: 35px 30px;
+}
+.generator__title {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.generator__sm-title {
+  margin-bottom: 25px;
+}
+.generator__text {
+  border: 2px dashed #6e7072;
+  margin: 5px 0;
+  width: 100%;
+  height: 150px;
+  padding: 8px 10px;
+  text-align: center;
+  font-size: 18px;
+  background-color: white;
+  resize: none;
+}
+.generator_btn {
+  align-self: center;
+  height: 40px;
+  width: 200px;
+  margin-top: 25px;
+  background-color: #9e110b;
+  color: white;
+  font-size: 19px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.generator_btn:hover {
+  background-color: #de2f29;
+}
